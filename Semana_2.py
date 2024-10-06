@@ -10,6 +10,8 @@ st.write("Python es un lenguaje de programación dinámico donde ...")
 st.header("Ejemplo 1: Enteros")
 st.write("En python, un entero (integer) es un número sin decimales por ejemplo:")
 
-#Definir una variable
-int_variable = 42
+#input para que el usuario pueda ingresar un number
+int_variable = st.number_input("Ingrese un número entero:", value=42, step=1=)
+
+#mostrando el valor
 st.code(f"int_variable = {int_variable} # Tipo: {Type(int_variable)}")
