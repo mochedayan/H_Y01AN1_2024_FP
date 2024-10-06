@@ -4,4 +4,4 @@ import streamlit as st
 st.title("Introducción a variables y tipos de datos en Python")
 
 #creando descripción inicial
-st.write("Python es un lenghaje de programación dinámico donde ...")
+st.write("Python es un lenguaje de programación dinámico donde ...")
