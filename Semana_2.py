@@ -14,4 +14,4 @@ st.write("En python, un entero (integer) es un número sin decimales por ejemplo
 int_variable = st.number_input("Ingrese un número entero:", value = 42, step = 1)
 
 #mostrando el valor
-st.code(f"int_variable = {int_variable} # Tipo: {Type(int_variable)}")
+st.code("int_variable = {int_variable} # Tipo: {Type(int_variable)}")
