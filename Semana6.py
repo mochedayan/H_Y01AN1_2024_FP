@@ -30,6 +30,15 @@ if st.button("Mostrar números pares entre 0 y 100"):
 st.write("##########################################################################################################")
 
 #función para generar la serie númerica
+def generar_serie(n):
+    serie = []
+    elementos = [1, 5, 3, 7, 5, 9, 7]
+    for i in range(n):
+        serie.append(elementos[i % len(elementos)])
+    return serie
+
+
+#Función para validar y calcular la suma
 def calcular_suma_serie(n)
     if n <= 0:
         return "El valor de n debe ser mayor que 0"
