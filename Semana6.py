@@ -26,3 +26,25 @@ if st.button("Mostrar números pares entre 0 y 100"):
     pares0a100 = [i for i in range(0,101) if i % 2 == 0]
     st.write("Números pares entre 0 y 100:")
     st.write(pares0a100)
+
+st.write("##########################################################################################################")
+
+#función para generar la serie númerica
+def calcular_suma_serie(n)
+    if n <= 0:
+        return "El valor de n debe ser mayor que 0"
+    serie = generar_serie(n)
+    suma = sum(serie)
+    return suma serie
+
+#streamlit para obtener el valor de n
+st.title("Ejercicio 6: Suma de los primeros n elementos de la serie")
+
+#ingresar un número por teclado
+n = st.number_input("Ingresa el valor de n:", min_value=1, sstep=1)
+
+#Botón para calcular la suma
+if st.button("calcular suma"):
+    suma,serie = calcular_suma_serie(n)
+    st.write(f"La serie generada para n={n} es: {serie}")
+    st.write(f"La suma de los primeros {n} elementos es: {suma}")
