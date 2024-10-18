@@ -27,9 +27,9 @@ if st.button("Mostrar números pares entre 0 y 100"):
     st.write("Números pares entre 0 y 100:")
     st.write(pares0a100)
 
-st.write("##########################################################################################################")
+st.write("#############################################################################################")
 
-#función para generar la serie númerica
+#función para generar la serie numérica
 def generar_serie(n):
     serie = []
     elementos = [1, 5, 3, 7, 5, 9, 7]
@@ -37,7 +37,7 @@ def generar_serie(n):
         serie.append(elementos[i % len(elementos)])
     return serie
 
-
+ 
 #Función para validar y calcular la suma
 def calcular_suma_serie(n):
     if n <= 0:
