@@ -27,7 +27,7 @@ if st.button("Mostrar números pares entre 0 y 100"):
     st.write("Números pares entre 0 y 100:")
     st.write(pares0a100)
 
-st.write("#############################################################################################")
+st.write("########################################################################################")
 
 #función para generar la serie numérica
 def generar_serie(n):
