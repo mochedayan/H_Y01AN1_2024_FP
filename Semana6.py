@@ -39,7 +39,7 @@ def generar_serie(n):
 
 
 #Función para validar y calcular la suma
-def calcular_suma_serie(n)
+def calcular_suma_serie(n):
     if n <= 0:
         return "El valor de n debe ser mayor que 0"
     serie = generar_serie(n)
