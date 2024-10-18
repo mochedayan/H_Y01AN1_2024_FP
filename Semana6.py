@@ -44,7 +44,7 @@ def calcular_suma_serie(n)
         return "El valor de n debe ser mayor que 0"
     serie = generar_serie(n)
     suma = sum(serie)
-    return suma serie
+    return suma, serie
 
 #streamlit para obtener el valor de n
 st.title("Ejercicio 6: Suma de los primeros n elementos de la serie")
